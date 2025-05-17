@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Career-Builder/static/css/main.bf04da63.chunk.css",
+    "main.js": "/Career-Builder/static/js/main.8dddbaeb.chunk.js",
+    "main.js.map": "/Career-Builder/static/js/main.8dddbaeb.chunk.js.map",
+    "runtime-main.js": "/Career-Builder/static/js/runtime-main.e1174f45.js",
+    "runtime-main.js.map": "/Career-Builder/static/js/runtime-main.e1174f45.js.map",
+    "static/css/2.b71989ea.chunk.css": "/Career-Builder/static/css/2.b71989ea.chunk.css",
+    "static/js/2.7bb2a4f5.chunk.js": "/Career-Builder/static/js/2.7bb2a4f5.chunk.js",
+    "static/js/2.7bb2a4f5.chunk.js.map": "/Career-Builder/static/js/2.7bb2a4f5.chunk.js.map",
+    "index.html": "/Career-Builder/index.html",
+    "precache-manifest.61736570d2a1706bb0ab37282e11476e.js": "/Career-Builder/precache-manifest.61736570d2a1706bb0ab37282e11476e.js",
+    "service-worker.js": "/Career-Builder/service-worker.js",
+    "static/css/2.b71989ea.chunk.css.map": "/Career-Builder/static/css/2.b71989ea.chunk.css.map",
+    "static/css/main.bf04da63.chunk.css.map": "/Career-Builder/static/css/main.bf04da63.chunk.css.map",
+    "static/js/2.7bb2a4f5.chunk.js.LICENSE.txt": "/Career-Builder/static/js/2.7bb2a4f5.chunk.js.LICENSE.txt",
+    "static/media/admin-carousel.webp": "/Career-Builder/static/media/admin-carousel.f5fcaea8.webp",
+    "static/media/admin-carousel2.jpeg": "/Career-Builder/static/media/admin-carousel2.5c532c2c.jpeg",
+    "static/media/company-carousel.jpeg": "/Career-Builder/static/media/company-carousel.33c2be5b.jpeg",
+    "static/media/CompanyForm.css": "/Career-Builder/static/media/company-form.4ad574ff.jpg",
+    "static/media/Footer1.css": "/Career-Builder/static/media/footer-email-img.9d5ce207.jpg",
+    "static/media/job-carousel.jpeg": "/Career-Builder/static/media/job-carousel.9f3e304e.jpeg",
+    "static/media/JobApplicantForm.css": "/Career-Builder/static/media/jobapplicant-form.3c0b42a3.jpg",
+    "static/media/team-carousel.jpeg": "/Career-Builder/static/media/team-carousel.66ef6271.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1174f45.js",
+    "static/css/2.b71989ea.chunk.css",
+    "static/js/2.7bb2a4f5.chunk.js",
+    "static/css/main.bf04da63.chunk.css",
+    "static/js/main.8dddbaeb.chunk.js"
+  ]
+}
