@@ -1,0 +1,227 @@
+.about-font{
+    text-align: center;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+
+.about-box{
+    /* border: 1px solid black; */
+    width: 280px;
+    height: 280px;
+    background-color: #faf6eb;
+    border-radius: 20px;
+    transition: 0.4s ease-out;
+    padding: 20px;
+}
+
+.aboutbox-img{
+    display: flex;
+    place-items: center;
+    background-color: #007457;
+    border: 1px solid black;
+    border-radius: 180px;
+    height: 55px;
+    width: 55px;
+}
+
+.about-box:hover{
+    background-color: #ecf2f0;
+    transition: 0.4s ease-out;
+}
+
+@media (max-width: 320px){
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-box{
+        width: 200px;
+        height: auto;
+        padding: 20px;
+    }
+    .aboutbox-info{
+        font-size: 1rem;
+    }
+    .aboutbox-info h5{
+        padding-top: 20px;
+        font-size: 1.2rem;
+    }
+}
+@media (min-width:320px) and (max-width:480px){
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-box{
+        width: 250px;
+        height: 280px;
+        padding: 20px;
+    }
+    .aboutbox-info{
+        font-size: 1.1rem;
+    }
+    .aboutbox-info h5{
+        padding-top: 20px;
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width:480px) and (max-width:768px){
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-box{
+        width: 400px;
+        height: 280px;
+        padding: 20px;
+    }
+    .aboutbox-info{
+        font-size: 1.1rem;
+    }
+    .aboutbox-info h5{
+        padding-top: 20px;
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .about-content{
+        flex-wrap: wrap;
+    }
+    .about-box{
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1400px){
+    .about-box{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+
+
+/* About Extension */
+
+.about-font{
+    text-align: center;
+}
+
+.about-content2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: auto;
+    width: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.aboutbox2{
+    width: 350px;
+    height: 330px;
+    background-color: #faf6eb;
+    border-radius: 20px;
+    transition: 0.4s ease-out;
+    padding: 20px;
+    margin: 20px;
+}
+
+.aboutbox-info{
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.aboutbox2:hover{
+    background-color: #ecf2f0;
+    transition: 0.4s ease-out;
+}
+@media (max-width: 320px){
+    .about-content2{
+        flex-wrap: wrap;
+    }
+    .aboutbox2{
+        width: 350px;
+        height: 350px;
+    }
+    .aboutbox-info{
+        font-size: 0.6rem;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .about-content2{
+        flex-wrap: wrap;
+    }
+    .aboutbox2{
+        width: 350px;
+        height: 300px;
+    }
+    .aboutbox-info{
+        font-size: 0.8rem;
+    }
+}
+@media (min-width: 480px) and (max-width: 768px){
+    .about-content2{
+        flex-wrap: wrap;
+    }
+    .aboutbox2{
+        width: 320px;
+        height: 300px;
+    }
+    .aboutbox-info{
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .about-content2{
+        flex-wrap: wrap;
+    }
+    .aboutbox2{
+        width: 290px;
+        height: 300px;
+    }
+    .aboutbox-info{
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .about-content2{
+        flex-wrap: wrap;
+    }
+    .aboutbox2{
+        width: 380px;
+        height: 340px;
+    }
+    .aboutbox-info{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px){
+    .aboutbox2{
+        width: 420px;
+        height: 380px;
+    }
+    .aboutbox-info{
+        font-size: 1.1rem;
+    }
+}

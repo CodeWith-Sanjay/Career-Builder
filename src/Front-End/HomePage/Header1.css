@@ -1,0 +1,55 @@
+.header{
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: #007457;
+    font-family: sans-serif;
+    animation: slideup 1s ease-in-out;
+}
+
+@keyframes slideup{
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.main-nav-menu {
+    text-decoration: none;
+    color: black;
+    padding: 17px;
+    border-radius: 10%;
+    margin: 20px;
+    background: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.4s ease-in-out;
+    animation: slideup 1s ease-in-out;
+}
+
+.main-nav-btn{
+    border: none;
+    background: #007457;
+    color: white;
+    padding: 15px;
+    border-radius: 10%;
+    margin: 20px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    animation: slideup 1s ease-in-out;
+}
+
+.main-nav-menu:hover {
+    background: transparent;
+    color: #007457;
+    transition: 0.5s ease-in-out;
+    box-shadow: 2px 2px 1px black;
+}
+
+.main-nav-btn:hover{
+    transition: 0.5s ease-in-out;
+    box-shadow: 2px 2px 1px black;
+}

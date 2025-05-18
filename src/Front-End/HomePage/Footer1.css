@@ -1,0 +1,266 @@
+.footer-email-img{
+    position: relative;
+  width: 100%; 
+  height: 500px; 
+  background-image: url('../images/footer-email-img.jpg');
+  background-size: cover; 
+  background-position: center;
+  /* opacity: 0.7;  */
+}
+
+.footer-email-img h1{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footeremail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    gap: 20px;
+  /* z-index: 1; */
+}
+
+.footeremail textarea{
+    font-size: 1rem;
+    padding: 20px;
+    width: 400px;
+    min-height: 100px;
+    max-height: 200px;
+    border-radius: 10px;
+}
+
+.footeremail input{
+    font-size: 1rem;
+    width: 400px;
+    height: 50px;
+    padding: 20px;
+    border: 0;
+    border-radius: 10px;
+    margin-right: 0;
+}
+
+.footeremail button{
+    font-size: 1rem;
+    height: 40px;
+    max-height: 50px;
+    min-width: 100px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: #007457;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.footeremail button:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-out;
+}
+@media (max-width: 320px){
+    .footer-main{
+        overflow: auto;
+        text-align: justify;
+    }
+    .footer-email-img{
+        overflow: auto;
+    }
+    .footeremail input{
+        width: 150px;
+    }
+    .footeremail button{
+        width: 50px;
+        text-align: justify;
+    }
+    .footeremail textarea{
+        width: 150px;
+        min-width: 100px;
+    }
+}
+@media (min-width:320px) and (max-width:480px){
+    .footer-email-img h1{
+        font-size: 0.9rem;
+        color: white;
+    }
+    .footeremail input{
+        width: 190px;
+        height: 50px;
+    }
+    .footeremail button{
+        height: 50px;
+        width: 70px;
+    }
+    .footeremail textarea{
+        width: 190px;
+        height: 100px;
+    }
+}
+
+@media (min-width:480px) and (max-width:720px){
+    .footer-email-img h1{
+        font-size: 1.3rem;
+    }
+    .footeremail input{
+        width: 300px;
+        height: 50px;
+    }
+    .footeremail button{
+        height: 50px;
+        width: 100px;
+    }
+    .footeremail textarea {
+        width:  300px;
+        height: 100px;
+    }
+}
+
+.footer-main{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    background-color: #ffffff;
+    height: 400px;
+    width: 100%;
+    color: #000000;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.footer-content{
+    background: transparent;
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid black; */
+    padding-right: 20px;
+    /* margin:30px; */
+}
+
+.footer-title{
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.footer-title-contact{
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.footer-title-content{
+    color: darkslategray;
+    padding-right: 20px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.footer-icons-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-icon-facebook:hover{
+    background-color: blue;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+}
+
+.footer-icon-instagram:hover{
+    background-color: palevioletred;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+}
+
+.footer-icon-x:hover{
+    background-color: gray;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 10px;
+    width: auto;
+}
+.footer-content ul li a{
+    text-decoration: none;
+    color: darkslategray;
+    font-size: 1rem;
+    transition: 0.5s ease-in-out;
+}
+
+.footer-content ul li a:hover{
+    color: black;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+.footer-icons-contact a{
+    text-decoration: none;
+    color: darkslategray;
+    transition: 0.4s ease-out;
+}
+
+.footer-icons-contact a:hover{
+    color: black;
+    font-weight: bolder;
+    transition: 0.4s ease-out;
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (max-width: 320px){
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+        width: auto;
+        align-content: center;
+    }
+
+    .footer-title, .footer-title-contact{
+        font-size: 1.5rem;
+    }
+
+    .footer-content{
+        margin-left: 20px;
+    }
+}

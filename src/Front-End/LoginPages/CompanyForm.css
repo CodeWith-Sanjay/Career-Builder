@@ -1,0 +1,125 @@
+.loginform-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 900px;
+    border: 0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.loginform{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.loginform-quote{
+    font-size: 1.6rem;
+    text-align: justify;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.loginform-input{
+    height: auto;
+    width: 380px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.loginform-input:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.loginform-btn{
+    height: auto;
+    width: 380px;
+    padding: 10px;
+    text-align: center;
+    border: 0;
+    background-color: #007457;
+    color: white;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.loginform-btn:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    background-color: #fee7df;
+    color: black;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.loginform-link{
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s ease-out;
+}
+
+.loginform-link:hover{
+    color: blue;
+    transition: 0.4s ease-out;
+}
+
+.loginimage2{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: url('../images/company-form.jpg');
+    object-fit: cover;
+    animation: slidein2 1s ease-in-out;
+}
+
+@keyframes slidein2 {
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 500px){
+    .loginform{
+        width: auto;
+    }
+    .loginform-quote{
+        font-size: 1rem;
+    }
+    .form-login{
+        height: 100%;
+    }
+    .loginform-input{
+        width: auto;
+    }
+    .loginform-btn{
+        width: auto;
+        padding: 20px;
+    }
+    .loginform-link{
+        font-size: 0.8rem;
+    }
+    .form-login p{
+        font-size: 0.8rem;
+    }
+    .loginimage2{
+        width: 0%;
+    }
+
+}
+
